@@ -1,6 +1,8 @@
-// This program runs a traffic light cycle
-// triggered by pressing a button like a 
-// pedestrian would use to cross the street.
+/*
+ * This program runs a traffic light cycle
+ * triggered by pressing a button like a
+ * pedestrian would use to cross the street.
+ */
 
 int button = 12;
 int red = 10;
@@ -58,8 +60,8 @@ void changeLights(){
 }
 
 void flashRedLight(){
-    digitalWrite(flashred, HIGH);   
-    delay(250);                       
-    digitalWrite(flashred, LOW);    
-    delay(250); 
+    digitalWrite(flashred, HIGH);
+    delay(250);
+    digitalWrite(flashred, LOW);
+    delay(250);
 }
